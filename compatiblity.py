@@ -14,6 +14,7 @@ def compute_compatibility(entity_ids_a, entity_ids_b, top_n_summary=5):
 
     r = requests.get(COMPARE_URL, headers=HEADERS, params=params)
     if r.status_code != 200:
+        print("Status error",r.status_code)
         return {"score": 0.0, "summary": [], "category_scores": {}}
 
     tags = r.json().get("results", {}).get("tags", [])
