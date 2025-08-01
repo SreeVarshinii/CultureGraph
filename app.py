@@ -97,7 +97,7 @@ if st.button("Submit"):
 
     # st.success("✅ Profile submitted!")
     # st.switch_page("pages/1_Results.py")
-    matched_profile_path = "profile/" + match["filename"]
+    matched_profile_path = "profile/" + match["filename"]+".json"
     try:
         with open(matched_profile_path, "r", encoding="utf-8") as f:
             matched_profile = json.load(f)
