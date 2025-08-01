@@ -16,19 +16,20 @@ def get_entity_id(name: str):
         return None
     return r.json()["results"][0]["entity_id"]
 
-def update_master_csv(filename, entity_ids, csv_path="logs/master_entity_log.csv"):
+def update_master_csv(filename, entity_ids,scenario_answers, csv_path="logs/master_entity_log.csv"):
     """
     Appends the filename and associated entity IDs to a master CSV.
     """
     row = {
         "filename": filename,
-        "full_entity_ids":entity_ids
+        "full_entity_ids":entity_ids,
+        "scenario_answers":scenario_answers
     }
 
     file_exists = os.path.isfile(csv_path)
 
     with open(csv_path, mode="a", newline="", encoding="utf-8") as csvfile:
-        fieldnames = ["filename", "full_entity_ids"]
+        fieldnames = ["filename", "full_entity_ids","scenario_answers"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
         if not file_exists:

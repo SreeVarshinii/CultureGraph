@@ -2,3 +2,5 @@ streamlit
 requests
 matplotlib
 numpy
+google-generativeai==0.8.5
+textblob

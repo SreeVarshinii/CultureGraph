@@ -3,62 +3,136 @@
   "query": {
     "entities": [
       {
-        "entity_id": "CDBDE254-71F0-4640-8D04-5373BEAE5278",
-        "name": "Minecraft",
-        "population_percentile": 0.9847513072147953,
+        "entity_id": "E7292BBF-3756-44F2-BE3B-011593CF9A76",
+        "name": "Too Much Information... or Can Everyone Just Shut Up for a Moment, Some of Us Are Trying to Think",
+        "population_percentile": 0.9019930808170741,
         "types": [
-          "urn:entity:videogame"
+          "urn:entity:book"
         ],
-        "disambiguation": "2011-11-18, Mojang AB",
+        "disambiguation": "2014, Dave Gorman",
         "properties": {
-          "console": [
-            "PC",
-            "Switch"
-          ],
-          "content_rating": "E10+",
-          "developer": "Mojang AB",
           "external": {
-            "igdb": {
-              "id": "minecraft"
-            },
-            "instagram": {
-              "id": "minecraft"
-            },
-            "metacritic": {
-              "critic_rating": 93,
-              "id": "minecraft",
-              "user_rating": 8
-            },
-            "twitch": {
-              "id": "minecraft: java edition"
-            },
-            "twitter": {
-              "id": "minecraft"
-            },
-            "wikidata": {
-              "id": "q105729297"
+            "goodreads": {
+              "id": "18460011",
+              "user_rating": 3.61,
+              "user_ratings_count": 1113
             }
           },
+          "publication_year": 2014,
+          "isbn13": "9780091928490",
+          "page_count": 333,
           "image": {
-            "url": "https://static.metacritic.com/images/products/games/2/0ec49754f864a372073dcc684094385d-98.jpg"
+            "url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397423289l/18460011.jpg"
           },
-          "publisher": "Mojang AB",
-          "release_date": "2011-11-18",
-          "short_description": "2011 sandbox game developed by Mojang",
-          "website": "http://www.minecraft.net/"
+          "language": "English",
+          "format": "Paperback"
         },
         "tags": [
           {
-            "name": "3d",
-            "tag_id": "urn:tag:genre:3d",
+            "name": "Cultural",
+            "tag_id": "urn:tag:genre:cultural",
             "type": "urn:tag:genre",
-            "value": "urn:tag:genre:3d"
+            "value": "urn:tag:genre:cultural"
           },
           {
-            "name": "Action Adventure",
-            "tag_id": "urn:tag:genre:action_adventure",
+            "name": "Humor:comedy",
+            "tag_id": "urn:tag:genre:humor_comedy",
             "type": "urn:tag:genre",
-            "value": "urn:tag:genre:action_adventure"
+            "value": "urn:tag:genre:humor_comedy"
+          },
+          {
+            "name": "Biography",
+            "tag_id": "urn:tag:genre:biography",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:biography"
+          },
+          {
+            "name": "Non_fiction",
+            "tag_id": "urn:tag:genre:non_fiction",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:non_fiction"
+          },
+          {
+            "name": "Audiobook",
+            "tag_id": "urn:tag:genre:audiobook",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:audiobook"
+          },
+          {
+            "name": "Nonfiction",
+            "tag_id": "urn:tag:genre:nonfiction",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:nonfiction"
+          },
+          {
+            "name": "Science:technology",
+            "tag_id": "urn:tag:genre:science_technology",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:science_technology"
+          },
+          {
+            "name": "Sequential_art:comics",
+            "tag_id": "urn:tag:genre:sequential_art_comics",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:sequential_art_comics"
+          },
+          {
+            "name": "Humor",
+            "tag_id": "urn:tag:genre:humor",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:humor"
+          },
+          {
+            "name": "Contemporary",
+            "tag_id": "urn:tag:genre:contemporary",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:contemporary"
+          }
+        ]
+      },
+      {
+        "entity_id": "228DB8A2-24C7-4425-862A-6AC0D14B3CB8",
+        "name": "Two by Two: Overboard!",
+        "population_percentile": 0.055469695798882106,
+        "types": [
+          "urn:entity:movie"
+        ],
+        "disambiguation": "2020, Seán McCormack, Toby Genkel",
+        "properties": {
+          "content_rating": "Not Rated",
+          "external": {
+            "imdb": {
+              "id": "tt12615474",
+              "user_rating": 5.8,
+              "user_rating_count": 801
+            },
+            "rottentomatoes": {
+              "critic_rating": "100",
+              "critic_rating_count": "5",
+              "id": "two_by_two_overboard",
+              "user_rating_count": "0"
+            },
+            "wikidata": {
+              "id": "q99592986"
+            }
+          },
+          "image": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZjM3NDE4NTYtYWJkYy00NWI5LThmNjMtYTFkMGNjMzdiMDU2XkEyXkFqcGdeQXVyNjYxNzY5MjE@._V1_.jpg"
+          },
+          "release_year": 2020
+        },
+        "tags": [
+          {
+            "name": "Family",
+            "tag_id": "urn:tag:genre:family",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:family"
+          },
+          {
+            "name": "Comedy",
+            "tag_id": "urn:tag:genre:comedy",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:comedy"
           },
           {
             "name": "Adventure",
@@ -67,65 +141,1294 @@
             "value": "urn:tag:genre:adventure"
           },
           {
+            "name": "Animation",
+            "tag_id": "urn:tag:genre:animation",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:animation"
+          }
+        ]
+      },
+      {
+        "entity_id": "83018D89-2DBA-4E7B-B50D-2363EB636F9C",
+        "name": "Death with Interruptions",
+        "population_percentile": 0.5445562310803592,
+        "types": [
+          "urn:entity:book"
+        ],
+        "disambiguation": "2008, José Saramago",
+        "properties": {
+          "external": {
+            "goodreads": {
+              "id": "3018539",
+              "user_rating": 3.93,
+              "user_ratings_count": 22307
+            }
+          },
+          "publication_year": 2008,
+          "isbn10": "0151012741",
+          "isbn13": "9780151012749",
+          "page_count": 238,
+          "image": {
+            "url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327937800l/3018539.jpg"
+          },
+          "language": "English",
+          "format": "Hardcover"
+        },
+        "tags": [
+          {
+            "name": "Magical_realism",
+            "tag_id": "urn:tag:genre:magical_realism",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:magical_realism"
+          },
+          {
+            "name": "European_literature:portuguese_literature",
+            "tag_id": "urn:tag:genre:european_literature_portuguese_literature",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:european_literature_portuguese_literature"
+          },
+          {
+            "name": "Romance",
+            "tag_id": "urn:tag:genre:romance",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:romance"
+          },
+          {
+            "name": "Classics",
+            "tag_id": "urn:tag:genre:classics",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:classics"
+          },
+          {
+            "name": "Literature",
+            "tag_id": "urn:tag:genre:literature",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:literature"
+          },
+          {
+            "name": "Novels",
+            "tag_id": "urn:tag:genre:novels",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:novels"
+          },
+          {
+            "name": "Fiction",
+            "tag_id": "urn:tag:genre:fiction",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:fiction"
+          },
+          {
             "name": "Fantasy",
             "tag_id": "urn:tag:genre:fantasy",
             "type": "urn:tag:genre",
             "value": "urn:tag:genre:fantasy"
           },
           {
-            "name": "Sandbox",
-            "tag_id": "urn:tag:genre:sandbox",
+            "name": "Contemporary",
+            "tag_id": "urn:tag:genre:contemporary",
             "type": "urn:tag:genre",
-            "value": "urn:tag:genre:sandbox"
+            "value": "urn:tag:genre:contemporary"
           },
           {
-            "name": "First-person",
-            "tag_id": "urn:tag:genre:first_person",
+            "name": "Death",
+            "tag_id": "urn:tag:genre:death",
             "type": "urn:tag:genre",
-            "value": "urn:tag:genre:first_person"
+            "value": "urn:tag:genre:death"
+          },
+          {
+            "name": "Cultural:portugal",
+            "tag_id": "urn:tag:genre:cultural_portugal",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:cultural_portugal"
+          },
+          {
+            "name": "Nobel_prize",
+            "tag_id": "urn:tag:genre:nobel_prize",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:nobel_prize"
           }
         ]
       },
       {
-        "entity_id": "1A138008-5316-4236-8310-93FE22F6CD58",
-        "name": "The Witcher",
-        "population_percentile": 0.9982359426681368,
+        "entity_id": "98390640-3BE8-474C-AA10-AA9330491CFF",
+        "name": "Follow The Dark as If It Were Light",
+        "population_percentile": 0.8707192835574731,
         "types": [
-          "urn:entity:tv_show"
+          "urn:entity:album"
         ],
-        "disambiguation": "2019",
+        "disambiguation": "Follow The Dark as If It Were Light",
+        "properties": {
+          "duration": {
+            "album": 3138
+          },
+          "image": {
+            "url": "https://lastfm.freetls.fastly.net/i/u/500x500/4c1b6c02aeb049d29575d3f74ecd3aef.jpg"
+          },
+          "release_date": "2011-05-29",
+          "track_count": 7
+        }
+      },
+      {
+        "entity_id": "D216D0E7-965D-456E-8B1E-5EAE624AFFEA",
+        "name": "What on Earth Have I Done Wrong?!",
+        "population_percentile": 0,
+        "types": [
+          "urn:entity:movie"
+        ],
+        "disambiguation": "2008, Doze Niu",
         "properties": {
           "external": {
-            "facebook": {
-              "id": "witchernetflix"
-            },
             "imdb": {
-              "id": "tt5180504",
-              "user_rating": 8,
-              "user_rating_count": 568873
-            },
-            "instagram": {
-              "id": "witchernetflix"
-            },
-            "twitter": {
-              "id": "witchernetflix"
+              "id": "tt1239313",
+              "user_rating": 6.9,
+              "user_rating_count": 226
             },
             "wikidata": {
-              "id": "q47500433"
+              "id": "q30632349"
             }
           },
           "image": {
-            "url": "https://m.media-amazon.com/images/M/MV5BMDEwOWVlY2EtMWI0ZC00OWVmLWJmZGItYTk3YjYzN2Y0YmFkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+            "url": "https://m.media-amazon.com/images/M/MV5BMjRkYjBjYzItYzIzOS00ZTAxLWFhM2MtNmVhOGM5ODBjOTYzXkEyXkFqcGdeQXVyMjg0MTI5NzQ@._V1_.jpg"
           },
-          "release_year": 2019,
-          "content_rating": "TV-MA"
+          "release_year": 2008
         },
         "tags": [
           {
-            "name": "Mystery",
-            "tag_id": "urn:tag:genre:mystery",
+            "name": "Comedy",
+            "tag_id": "urn:tag:genre:comedy",
             "type": "urn:tag:genre",
-            "value": "urn:tag:genre:mystery"
+            "value": "urn:tag:genre:comedy"
+          }
+        ]
+      },
+      {
+        "entity_id": "A83C55A6-F00B-41FD-90D9-439EBE2C8119",
+        "name": "The Value of Everything: Making and Taking in the Global Economy",
+        "population_percentile": 0.9890386914604055,
+        "types": [
+          "urn:entity:book"
+        ],
+        "disambiguation": "2018, Mariana Mazzucato",
+        "properties": {
+          "external": {
+            "goodreads": {
+              "id": "29502362",
+              "user_rating": 4.1,
+              "user_ratings_count": 1828
+            }
+          },
+          "publication_year": 2018,
+          "isbn13": "9781610396745",
+          "page_count": 384,
+          "image": {
+            "url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1458793853l/29502362.jpg"
+          },
+          "language": "English",
+          "format": "Hardcover"
+        },
+        "tags": [
+          {
+            "name": "Culture:society",
+            "tag_id": "urn:tag:genre:culture_society",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:culture_society"
+          },
+          {
+            "name": "Business",
+            "tag_id": "urn:tag:genre:business",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:business"
+          },
+          {
+            "name": "History",
+            "tag_id": "urn:tag:genre:history",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:history"
+          },
+          {
+            "name": "Philosophy",
+            "tag_id": "urn:tag:genre:philosophy",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:philosophy"
+          },
+          {
+            "name": "Politics:political_science",
+            "tag_id": "urn:tag:genre:politics_political_science",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:politics_political_science"
+          },
+          {
+            "name": "Nonfiction",
+            "tag_id": "urn:tag:genre:nonfiction",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:nonfiction"
+          },
+          {
+            "name": "Politics",
+            "tag_id": "urn:tag:genre:politics",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:politics"
+          },
+          {
+            "name": "Economics:finance",
+            "tag_id": "urn:tag:genre:economics_finance",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:economics_finance"
+          },
+          {
+            "name": "Economics",
+            "tag_id": "urn:tag:genre:economics",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:economics"
+          },
+          {
+            "name": "Audiobook",
+            "tag_id": "urn:tag:genre:audiobook",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:audiobook"
+          }
+        ]
+      },
+      {
+        "entity_id": "BF22D089-6A75-4AE7-A11E-41DF620B42BB",
+        "name": "What to Listen for in Music",
+        "population_percentile": 0.9961664674009819,
+        "types": [
+          "urn:entity:book"
+        ],
+        "disambiguation": "2002, Aaron Copland",
+        "properties": {
+          "external": {
+            "goodreads": {
+              "id": "99126",
+              "user_rating": 3.95,
+              "user_ratings_count": 7697
+            }
+          },
+          "publication_year": 2002,
+          "isbn10": "0451528670",
+          "isbn13": "9780451528674",
+          "page_count": 266,
+          "image": {
+            "url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309212078l/99126.jpg"
+          },
+          "language": "English",
+          "format": "Paperback"
+        },
+        "tags": [
+          {
+            "name": "Music",
+            "tag_id": "urn:tag:genre:music",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:music"
+          },
+          {
+            "name": "Adult",
+            "tag_id": "urn:tag:genre:adult",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:adult"
+          },
+          {
+            "name": "Music:classical_music",
+            "tag_id": "urn:tag:genre:music_classical_music",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:music_classical_music"
+          },
+          {
+            "name": "Self_help",
+            "tag_id": "urn:tag:genre:self_help",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:self_help"
+          },
+          {
+            "name": "Art",
+            "tag_id": "urn:tag:genre:art",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:art"
+          },
+          {
+            "name": "Nonfiction",
+            "tag_id": "urn:tag:genre:nonfiction",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:nonfiction"
+          },
+          {
+            "name": "Education",
+            "tag_id": "urn:tag:genre:education",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:education"
+          },
+          {
+            "name": "Reference",
+            "tag_id": "urn:tag:genre:reference",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:reference"
+          },
+          {
+            "name": "Science",
+            "tag_id": "urn:tag:genre:science",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:science"
+          },
+          {
+            "name": "History",
+            "tag_id": "urn:tag:genre:history",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:history"
+          }
+        ]
+      },
+      {
+        "entity_id": "984CA51B-DC9E-4CB6-8372-B2851FCB7141",
+        "name": "I Fell in Love With a Dead Boy",
+        "population_percentile": 0.9610778819488967,
+        "types": [
+          "urn:entity:album"
+        ],
+        "disambiguation": "I Fell in Love With a Dead Boy",
+        "properties": {
+          "duration": {
+            "album": 906
+          },
+          "image": {
+            "url": "https://lastfm.freetls.fastly.net/i/u/500x500/58657539c65b47128503a431cd85a33f.jpg"
+          },
+          "release_date": "2001-01-29",
+          "track_count": 3
+        }
+      },
+      {
+        "entity_id": "9D50B2B6-C415-4820-905A-CA6E2F00CCFD",
+        "name": "The Happiest Baby on the Block: The New Way to Calm Crying and Help Your Newborn Baby Sleep Longer",
+        "population_percentile": 0.822390679453588,
+        "types": [
+          "urn:entity:book"
+        ],
+        "disambiguation": "2005, Harvey Karp",
+        "properties": {
+          "external": {
+            "goodreads": {
+              "id": "132900",
+              "user_rating": 3.87,
+              "user_ratings_count": 20223
+            }
+          },
+          "publication_date": "2005-12-27",
+          "publication_year": 2005,
+          "isbn10": "0553588729",
+          "isbn13": "9780553588729",
+          "page_count": 336,
+          "image": {
+            "url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387740973l/132900.jpg"
+          },
+          "language": "English",
+          "format": "Mass Market Paperback"
+        },
+        "tags": [
+          {
+            "name": "Parenting",
+            "tag_id": "urn:tag:genre:parenting",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:parenting"
+          },
+          {
+            "name": "Psychology",
+            "tag_id": "urn:tag:genre:psychology",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:psychology"
+          },
+          {
+            "name": "Nonfiction",
+            "tag_id": "urn:tag:genre:nonfiction",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:nonfiction"
+          },
+          {
+            "name": "How_to",
+            "tag_id": "urn:tag:genre:how_to",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:how_to"
+          },
+          {
+            "name": "Family",
+            "tag_id": "urn:tag:genre:family",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:family"
+          },
+          {
+            "name": "Self_help",
+            "tag_id": "urn:tag:genre:self_help",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:self_help"
+          },
+          {
+            "name": "Adult",
+            "tag_id": "urn:tag:genre:adult",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:adult"
+          },
+          {
+            "name": "Health",
+            "tag_id": "urn:tag:genre:health",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:health"
+          },
+          {
+            "name": "Reference",
+            "tag_id": "urn:tag:genre:reference",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:reference"
+          },
+          {
+            "name": "Childrens",
+            "tag_id": "urn:tag:genre:childrens",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:childrens"
+          }
+        ]
+      },
+      {
+        "entity_id": "B5595E5F-E683-4883-A7B4-CD3E68918A0D",
+        "name": "We Are All Stardust: Leading Scientists Talk About Their Work, Their Lives, and the Mysteries of Our Existence",
+        "population_percentile": 0.9475553916206659,
+        "types": [
+          "urn:entity:book"
+        ],
+        "disambiguation": "2015, Peter Singer, Jane Goodall, Stefan Klein, Richard Dawkins",
+        "properties": {
+          "external": {
+            "goodreads": {
+              "id": "16238031",
+              "user_rating": 4.17,
+              "user_ratings_count": 562
+            }
+          },
+          "publication_year": 2015,
+          "isbn10": "1615190597",
+          "isbn13": "9781615190591",
+          "page_count": 288,
+          "image": {
+            "url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441550350l/16238031._SY475_.jpg"
+          },
+          "language": "English",
+          "format": "Paperback"
+        },
+        "tags": [
+          {
+            "name": "Anthropology",
+            "tag_id": "urn:tag:genre:anthropology",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:anthropology"
+          },
+          {
+            "name": "Audiobook",
+            "tag_id": "urn:tag:genre:audiobook",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:audiobook"
+          },
+          {
+            "name": "Science:physics",
+            "tag_id": "urn:tag:genre:science_physics",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:science_physics"
+          },
+          {
+            "name": "Writing:essays",
+            "tag_id": "urn:tag:genre:writing_essays",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:writing_essays"
+          },
+          {
+            "name": "Nonfiction",
+            "tag_id": "urn:tag:genre:nonfiction",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:nonfiction"
+          },
+          {
+            "name": "Science:biology",
+            "tag_id": "urn:tag:genre:science_biology",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:science_biology"
+          },
+          {
+            "name": "Science:popular_science",
+            "tag_id": "urn:tag:genre:science_popular_science",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:science_popular_science"
+          },
+          {
+            "name": "Space",
+            "tag_id": "urn:tag:genre:space",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:space"
+          },
+          {
+            "name": "History",
+            "tag_id": "urn:tag:genre:history",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:history"
+          },
+          {
+            "name": "Philosophy",
+            "tag_id": "urn:tag:genre:philosophy",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:philosophy"
+          },
+          {
+            "name": "Science",
+            "tag_id": "urn:tag:genre:science",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:science"
+          },
+          {
+            "name": "Science:astronomy",
+            "tag_id": "urn:tag:genre:science_astronomy",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:science_astronomy"
+          }
+        ]
+      },
+      {
+        "entity_id": "BF22D089-6A75-4AE7-A11E-41DF620B42BB",
+        "name": "What to Listen for in Music",
+        "population_percentile": 0.9961664674009819,
+        "types": [
+          "urn:entity:book"
+        ],
+        "disambiguation": "2002, Aaron Copland",
+        "properties": {
+          "external": {
+            "goodreads": {
+              "id": "99126",
+              "user_rating": 3.95,
+              "user_ratings_count": 7697
+            }
+          },
+          "publication_year": 2002,
+          "isbn10": "0451528670",
+          "isbn13": "9780451528674",
+          "page_count": 266,
+          "image": {
+            "url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309212078l/99126.jpg"
+          },
+          "language": "English",
+          "format": "Paperback"
+        },
+        "tags": [
+          {
+            "name": "Music",
+            "tag_id": "urn:tag:genre:music",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:music"
+          },
+          {
+            "name": "Adult",
+            "tag_id": "urn:tag:genre:adult",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:adult"
+          },
+          {
+            "name": "Music:classical_music",
+            "tag_id": "urn:tag:genre:music_classical_music",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:music_classical_music"
+          },
+          {
+            "name": "Self_help",
+            "tag_id": "urn:tag:genre:self_help",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:self_help"
+          },
+          {
+            "name": "Art",
+            "tag_id": "urn:tag:genre:art",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:art"
+          },
+          {
+            "name": "Nonfiction",
+            "tag_id": "urn:tag:genre:nonfiction",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:nonfiction"
+          },
+          {
+            "name": "Education",
+            "tag_id": "urn:tag:genre:education",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:education"
+          },
+          {
+            "name": "Reference",
+            "tag_id": "urn:tag:genre:reference",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:reference"
+          },
+          {
+            "name": "Science",
+            "tag_id": "urn:tag:genre:science",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:science"
+          },
+          {
+            "name": "History",
+            "tag_id": "urn:tag:genre:history",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:history"
+          }
+        ]
+      },
+      {
+        "entity_id": "E716C69C-726C-40EC-8A95-1A7C8A4B072D",
+        "name": "Some People Have Real Problems",
+        "population_percentile": 0.9982488692447133,
+        "types": [
+          "urn:entity:album"
+        ],
+        "disambiguation": "Some People Have Real Problems",
+        "properties": {
+          "duration": {
+            "album": 3726
+          },
+          "image": {
+            "url": "https://lastfm.freetls.fastly.net/i/u/500x500/df5c2ce2f60e2a4d633b545c717126dc.jpg"
+          },
+          "release_date": "2008-01-01",
+          "track_count": 14
+        },
+        "tags": [
+          {
+            "name": "female vocalists",
+            "tag_id": "816CED7D-9B50-43CC-BA27-684A9D39CFC0",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:female_vocalists"
+          },
+          {
+            "name": "alternative",
+            "tag_id": "0FDECC0B-CFC5-4131-9CA2-BB5DC914A88C",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:alternative"
+          },
+          {
+            "name": "soul",
+            "tag_id": "E3A4199E-895F-4D6A-93D2-312A9ED27352",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:soul"
+          },
+          {
+            "name": "female vocalist",
+            "tag_id": "1D6F55A9-5F22-4DCD-8DCA-2F905A82192D",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:female_vocalist"
+          },
+          {
+            "name": "singer-songwriter",
+            "tag_id": "A78392F2-1BB9-4947-A7CE-8735C8C5CFEC",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:singer_songwriter"
+          },
+          {
+            "name": "indie",
+            "tag_id": "E9F4BA69-1E19-4F90-B2DE-40D4BEF94048",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:indie"
+          },
+          {
+            "name": "pop",
+            "tag_id": "587581FE-513F-46E4-BDD9-5809532A1D12",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:pop"
+          }
+        ]
+      },
+      {
+        "entity_id": "9182664F-3586-4ACF-87A5-BA5E3D9A66D7",
+        "name": "McFly",
+        "population_percentile": 0.994685283446777,
+        "types": [
+          "urn:entity:artist"
+        ],
+        "disambiguation": "McFly",
+        "properties": {
+          "external": {
+            "facebook": {
+              "id": "mcfly"
+            },
+            "instagram": {
+              "id": "mcflymusic"
+            },
+            "lastfm": {
+              "id": "mcfly",
+              "listeners": 675455,
+              "scrobbles": 32085611
+            },
+            "musicbrainz": {
+              "id": "252186e8-86ce-4454-9297-01f8b18a7a19"
+            },
+            "spotify": {
+              "id": "5reWgej0khLwmTRdyCiyXN"
+            },
+            "twitter": {
+              "id": "mcflymusic"
+            },
+            "wikidata": {
+              "id": "q223768"
+            }
+          },
+          "image": {
+            "url": "https://lastfm.freetls.fastly.net/i/u/770x0/2a96cbd8b46e442.jpg"
+          }
+        },
+        "tags": [
+          {
+            "name": "British",
+            "tag_id": "urn:tag:genre:british",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:british"
+          },
+          {
+            "name": "Britpop",
+            "tag_id": "urn:tag:genre:britpop",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:britpop"
+          },
+          {
+            "name": "Alternative Rock",
+            "tag_id": "urn:tag:genre:alternative_rock",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:alternative_rock"
+          },
+          {
+            "name": "Pop Rock",
+            "tag_id": "urn:tag:genre:pop_rock",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:pop_rock"
+          },
+          {
+            "name": "Pop",
+            "tag_id": "urn:tag:genre:pop",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:pop"
+          },
+          {
+            "name": "Rock",
+            "tag_id": "urn:tag:genre:rock",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:rock"
+          }
+        ]
+      },
+      {
+        "entity_id": "C42A1B79-7B4E-45FD-B975-A83892C936E9",
+        "name": "Deep Work: Rules for Focused Success in a Distracted World",
+        "population_percentile": 0.7530983694131413,
+        "types": [
+          "urn:entity:book"
+        ],
+        "disambiguation": "2016, Cal Newport",
+        "properties": {
+          "external": {
+            "goodreads": {
+              "id": "25744928",
+              "user_rating": 4.17,
+              "user_ratings_count": 100484
+            }
+          },
+          "publication_year": 2016,
+          "isbn10": "1455586692",
+          "isbn13": "9781455586691",
+          "page_count": 296,
+          "image": {
+            "url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447957962l/25744928._SY475_.jpg"
+          },
+          "language": "English",
+          "format": "Hardcover"
+        },
+        "tags": [
+          {
+            "name": "Business:management",
+            "tag_id": "urn:tag:genre:business_management",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:business_management"
+          },
+          {
+            "name": "Audiobook",
+            "tag_id": "urn:tag:genre:audiobook",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:audiobook"
+          },
+          {
+            "name": "Self_help:personal_development",
+            "tag_id": "urn:tag:genre:self_help_personal_development",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:self_help_personal_development"
+          },
+          {
+            "name": "Leadership",
+            "tag_id": "urn:tag:genre:leadership",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:leadership"
+          },
+          {
+            "name": "How_to",
+            "tag_id": "urn:tag:genre:how_to",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:how_to"
+          },
+          {
+            "name": "Philosophy",
+            "tag_id": "urn:tag:genre:philosophy",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:philosophy"
+          },
+          {
+            "name": "Management",
+            "tag_id": "urn:tag:genre:management",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:management"
+          },
+          {
+            "name": "Self_help",
+            "tag_id": "urn:tag:genre:self_help",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:self_help"
+          },
+          {
+            "name": "Nonfiction",
+            "tag_id": "urn:tag:genre:nonfiction",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:nonfiction"
+          },
+          {
+            "name": "Productivity",
+            "tag_id": "urn:tag:genre:productivity",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:productivity"
+          },
+          {
+            "name": "Business",
+            "tag_id": "urn:tag:genre:business",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:business"
+          },
+          {
+            "name": "Psychology",
+            "tag_id": "urn:tag:genre:psychology",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:psychology"
+          },
+          {
+            "name": "Language:writing",
+            "tag_id": "urn:tag:genre:language_writing",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:language_writing"
+          }
+        ]
+      },
+      {
+        "entity_id": "0D03543F-50C2-47B3-AC6B-F4308EEDE773",
+        "name": "ZUTOMAYO",
+        "population_percentile": 0.37759972968252015,
+        "types": [
+          "urn:entity:artist"
+        ],
+        "disambiguation": "ZUTOMAYO",
+        "properties": {
+          "external": {
+            "instagram": {
+              "id": "zutomayo"
+            },
+            "musicbrainz": {
+              "id": "14d2a235-30e2-489f-b490-f9dc7d2c0861"
+            },
+            "spotify": {
+              "id": "38WbKH6oKAZskBhqDFA8Uj"
+            },
+            "twitter": {
+              "id": "zutomayo_staff"
+            },
+            "wikidata": {
+              "id": "q60989925"
+            }
+          },
+          "image": {
+            "url": "https://lastfm.freetls.fastly.net/i/u/770x0/ce806d568c0c14e2d4cc16f5d0e8eb19.jpg"
+          }
+        },
+        "tags": [
+          {
+            "name": "Jazz Fusion",
+            "tag_id": "urn:tag:genre:jazz_fusion",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:jazz_fusion"
+          },
+          {
+            "name": "J - Rock",
+            "tag_id": "urn:tag:genre:j_rock",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:j_rock"
+          },
+          {
+            "name": "Indie",
+            "tag_id": "urn:tag:genre:indie",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:indie"
+          },
+          {
+            "name": "Alternative Rock",
+            "tag_id": "urn:tag:genre:alternative_rock",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:alternative_rock"
+          },
+          {
+            "name": "Japanese",
+            "tag_id": "urn:tag:genre:japanese",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:japanese"
+          },
+          {
+            "name": "Rock",
+            "tag_id": "urn:tag:genre:rock",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:rock"
+          },
+          {
+            "name": "J -pop",
+            "tag_id": "urn:tag:genre:j_pop",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:j_pop"
+          }
+        ]
+      },
+      {
+        "entity_id": "53512983-4C02-4213-9DAD-41068ACAE680",
+        "name": "Double Down Brewpub And Cafe",
+        "population_percentile": 0.971015622698219,
+        "types": [
+          "urn:entity:place"
+        ],
+        "disambiguation": "11/1 SARAT BOSE ROAD, Ideal Plaza GR Floor near Kotak bank and, opp. Axis Bank Kolkata, West Bengal 700020 India",
+        "properties": {
+          "external": {
+            "resy": {
+              "id": "65905",
+              "url": "https://resy.com/cities/klk/double-down",
+              "min_party_size": 2,
+              "max_party_size": 4,
+              "neighborhood": "Elgin",
+              "cuisine": "Indian"
+            }
+          },
+          "image": {
+            "url": "https://lh5.googleusercontent.com/p/AF1QipPrrWuO0-oNRLt_tSq2YVRBiOYi4E8MEuhJAqUm=w129-h86-k-no"
+          },
+          "address": "11/1 SARAT BOSE ROAD, Ideal Plaza GR Floor near Kotak bank and, opp. Axis Bank Kolkata, West Bengal 700020 India"
+        },
+        "tags": [
+          {
+            "name": "Pub",
+            "tag_id": "urn:tag:genre:restaurant:pub",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:restaurant:pub"
+          },
+          {
+            "name": "Bar",
+            "tag_id": "urn:tag:genre:restaurant:bar",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:restaurant:bar"
+          },
+          {
+            "name": "Cafe",
+            "tag_id": "urn:tag:genre:restaurant:cafe",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:restaurant:cafe"
+          },
+          {
+            "name": "Casual",
+            "tag_id": "urn:tag:ambience:casual",
+            "type": "urn:tag:ambience",
+            "value": "urn:tag:ambience:casual"
+          },
+          {
+            "name": "Urban",
+            "tag_id": "urn:tag:ambience:urban",
+            "type": "urn:tag:ambience",
+            "value": "urn:tag:ambience:urban"
+          },
+          {
+            "name": "Place",
+            "tag_id": "urn:tag:genre:place",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:place"
+          },
+          {
+            "name": "Large Group",
+            "tag_id": "urn:tag:ambience:large_group",
+            "type": "urn:tag:ambience",
+            "value": "urn:tag:ambience:large_group"
+          },
+          {
+            "name": "Restaurant",
+            "tag_id": "urn:tag:genre:restaurant",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:restaurant"
+          }
+        ]
+      },
+      {
+        "entity_id": "D22CC2B8-CE2D-4933-B57E-BEC54BB5DAFC",
+        "name": "Start Something That Matters Podcast",
+        "population_percentile": 0.3565087754963746,
+        "types": [
+          "urn:entity:podcast"
+        ],
+        "disambiguation": "Daniel Philben",
+        "properties": {
+          "external": {
+            "itunes": {
+              "id": "1031840792",
+              "user_rating": 5
+            }
+          }
+        },
+        "tags": [
+          {
+            "name": "Business",
+            "tag_id": "urn:tag:genre:business",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:business"
+          }
+        ]
+      },
+      {
+        "entity_id": "3E6B3E90-6CE5-49B5-B96E-6A2040008329",
+        "name": "Start with Why: How Great Leaders Inspire Everyone to Take Action",
+        "population_percentile": 0.8796049451807382,
+        "types": [
+          "urn:entity:book"
+        ],
+        "disambiguation": "2009, Simon Sinek",
+        "properties": {
+          "external": {
+            "goodreads": {
+              "id": "7108725",
+              "user_rating": 4.1,
+              "user_ratings_count": 157969
+            },
+            "wikidata": {
+              "id": "q16909426"
+            }
+          },
+          "publication_date": "2009-10-29",
+          "publication_year": 2009,
+          "isbn10": "1591842808",
+          "isbn13": "9781591842804",
+          "page_count": 256,
+          "image": {
+            "url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360936414l/7108725.jpg"
+          },
+          "language": "English",
+          "format": "Hardcover"
+        },
+        "tags": [
+          {
+            "name": "Leadership",
+            "tag_id": "urn:tag:genre:leadership",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:leadership"
+          },
+          {
+            "name": "Business:entrepreneurship",
+            "tag_id": "urn:tag:genre:business_entrepreneurship",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:business_entrepreneurship"
+          },
+          {
+            "name": "Buisness",
+            "tag_id": "urn:tag:genre:buisness",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:buisness"
+          },
+          {
+            "name": "Non_fiction",
+            "tag_id": "urn:tag:genre:non_fiction",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:non_fiction"
+          },
+          {
+            "name": "Audiobook",
+            "tag_id": "urn:tag:genre:audiobook",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:audiobook"
+          },
+          {
+            "name": "Psychology",
+            "tag_id": "urn:tag:genre:psychology",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:psychology"
+          },
+          {
+            "name": "Philosophy",
+            "tag_id": "urn:tag:genre:philosophy",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:philosophy"
+          },
+          {
+            "name": "Education",
+            "tag_id": "urn:tag:genre:education",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:education"
+          },
+          {
+            "name": "Business",
+            "tag_id": "urn:tag:genre:business",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:business"
+          },
+          {
+            "name": "Management",
+            "tag_id": "urn:tag:genre:management",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:management"
+          },
+          {
+            "name": "Inspirational",
+            "tag_id": "urn:tag:genre:inspirational",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:inspirational"
+          },
+          {
+            "name": "Self_help:personal_development",
+            "tag_id": "urn:tag:genre:self_help_personal_development",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:self_help_personal_development"
+          },
+          {
+            "name": "Business:management",
+            "tag_id": "urn:tag:genre:business_management",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:business_management"
+          },
+          {
+            "name": "Nonfiction",
+            "tag_id": "urn:tag:genre:nonfiction",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:nonfiction"
+          },
+          {
+            "name": "Self_help",
+            "tag_id": "urn:tag:genre:self_help",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:self_help"
+          }
+        ]
+      },
+      {
+        "entity_id": "371D19C6-3571-4652-A0CE-4140AAACE61B",
+        "name": "Be Human Once a Week",
+        "population_percentile": 0,
+        "types": [
+          "urn:entity:movie"
+        ],
+        "disambiguation": "2021, Shahram Shah Hosseini",
+        "properties": {
+          "external": {
+            "imdb": {
+              "id": "tt15188158",
+              "user_rating": 3.1,
+              "user_rating_count": 225
+            },
+            "wikidata": {
+              "id": "q107999544"
+            }
+          },
+          "image": {
+            "url": "https://m.media-amazon.com/images/M/MV5BZDRkM2FjYTgtMjA3Mi00ZjFhLWJjMjMtMmFhODQ3MTQ1ZmZiXkEyXkFqcGdeQXVyMTAxMTIyMTMz._V1_.jpg"
+          },
+          "release_year": 2021
+        },
+        "tags": [
+          {
+            "name": "Comedy",
+            "tag_id": "urn:tag:genre:comedy",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:comedy"
+          }
+        ]
+      },
+      {
+        "entity_id": "EDDC54EA-2CA0-4D78-AF94-BF44CFCC948B",
+        "name": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+        "population_percentile": 0.9953378152126316,
+        "types": [
+          "urn:entity:movie"
+        ],
+        "disambiguation": "1964, Stanley Kubrick",
+        "properties": {
+          "content_rating": "PG",
+          "external": {
+            "imdb": {
+              "id": "tt0057012",
+              "user_rating": 8.4,
+              "user_rating_count": 517451
+            },
+            "metacritic": {
+              "critic_rating": 97,
+              "id": "dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb",
+              "user_rating": 8.4
+            },
+            "wikidata": {
+              "id": "q105702"
+            }
+          },
+          "image": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMWMxYjZkOWUtM2FjMi00MmI1LThkNzQtNTM5Y2E2ZGQ2NGFhXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"
+          },
+          "release_year": 1964
+        },
+        "tags": [
+          {
+            "name": "War",
+            "tag_id": "urn:tag:genre:war",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:war"
+          },
+          {
+            "name": "Comedy",
+            "tag_id": "urn:tag:genre:comedy",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:comedy"
+          }
+        ]
+      },
+      {
+        "entity_id": "F9C423C6-1B8B-4AA0-868F-579556DE6A35",
+        "name": "Nightmare in Venice",
+        "population_percentile": 0,
+        "types": [
+          "urn:entity:movie"
+        ],
+        "disambiguation": "Mario Bianchi",
+        "properties": {
+          "external": {
+            "imdb": {
+              "id": "tt0096759",
+              "user_rating": 5.3,
+              "user_rating_count": 59
+            },
+            "wikidata": {
+              "id": "q21795349"
+            }
+          },
+          "image": {
+            "url": "https://m.media-amazon.com/images/M/MV5BNmU4MWRlNWMtYzc4Ni00MzI3LWFhNWMtYzYxMDdhM2I0ZDEyXkEyXkFqcGdeQXVyMTAxMDQ0ODk@._V1_.jpg"
+          }
+        },
+        "tags": [
+          {
+            "name": "Romance",
+            "tag_id": "urn:tag:genre:romance",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:romance"
           },
           {
             "name": "Drama",
@@ -134,472 +1437,529 @@
             "value": "urn:tag:genre:drama"
           },
           {
-            "name": "Fantasy",
-            "tag_id": "urn:tag:genre:fantasy",
+            "name": "Mystery",
+            "tag_id": "urn:tag:genre:mystery",
             "type": "urn:tag:genre",
-            "value": "urn:tag:genre:fantasy"
+            "value": "urn:tag:genre:mystery"
           },
           {
-            "name": "Action",
-            "tag_id": "urn:tag:genre:action",
+            "name": "Thriller",
+            "tag_id": "urn:tag:genre:thriller",
             "type": "urn:tag:genre",
-            "value": "urn:tag:genre:action"
-          },
-          {
-            "name": "Adventure",
-            "tag_id": "urn:tag:genre:adventure",
-            "type": "urn:tag:genre",
-            "value": "urn:tag:genre:adventure"
+            "value": "urn:tag:genre:thriller"
           }
         ]
       },
       {
-        "entity_id": "0D2F4F91-7B41-4261-AEE1-58EDE1C95559",
-        "name": "Sid Meier's Civilization VI",
-        "population_percentile": 0.8136929139942818,
+        "entity_id": "9EA12781-2CCA-4AA7-A502-08300D5F8C9C",
+        "name": "The Happiness Advantage: The Seven Principles of Positive Psychology That Fuel Success and Performance at Work",
+        "population_percentile": 0.9883238788125461,
         "types": [
-          "urn:entity:videogame"
+          "urn:entity:book"
         ],
-        "disambiguation": "2018-11-16, Firaxis Games, Aspyr",
+        "disambiguation": "2010, Shawn Achor",
         "properties": {
-          "console": [
-            "PC",
-            "Switch",
-            "iOS",
-            "Xbox One",
-            "PlayStation 4"
-          ],
-          "content_rating": "E10+",
-          "developer": "Firaxis Games, Aspyr",
           "external": {
-            "igdb": {
-              "id": "sid-meiers-civilization-vi"
-            },
-            "metacritic": {
-              "critic_rating": 86,
-              "id": "sid-meiers-civilization-vi",
-              "user_rating": 7
-            },
-            "steam": {
-              "id": "289070"
-            },
-            "wikidata": {
-              "id": "q24050047"
+            "goodreads": {
+              "id": "9484114",
+              "user_rating": 4.12,
+              "user_ratings_count": 25504
             }
           },
+          "publication_year": 2010,
+          "isbn10": "0307591565",
+          "isbn13": "9780307591562",
+          "page_count": 272,
           "image": {
-            "url": "https://static.metacritic.com/images/products/games/8/249f44ad4193e189901151d6a72f1cd3-98.jpg"
+            "url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1381289860l/9484114.jpg"
           },
-          "publisher": "2K Games",
-          "release_date": "2018-11-16",
-          "short_description": "2016 turn-based strategy video game",
-          "website": "http://www.civilization.com/"
+          "language": "English",
+          "format": "ebook"
         },
         "tags": [
           {
-            "name": "4x",
-            "tag_id": "urn:tag:genre:4x",
+            "name": "Science",
+            "tag_id": "urn:tag:genre:science",
             "type": "urn:tag:genre",
-            "value": "urn:tag:genre:4x"
+            "value": "urn:tag:genre:science"
           },
           {
-            "name": "Strategy",
-            "tag_id": "urn:tag:genre:strategy",
+            "name": "Self_help",
+            "tag_id": "urn:tag:genre:self_help",
             "type": "urn:tag:genre",
-            "value": "urn:tag:genre:strategy"
+            "value": "urn:tag:genre:self_help"
           },
           {
-            "name": "Turn-based",
-            "tag_id": "urn:tag:genre:turn_based",
+            "name": "Philosophy",
+            "tag_id": "urn:tag:genre:philosophy",
             "type": "urn:tag:genre",
-            "value": "urn:tag:genre:turn_based"
+            "value": "urn:tag:genre:philosophy"
+          },
+          {
+            "name": "Self_help:personal_development",
+            "tag_id": "urn:tag:genre:self_help_personal_development",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:self_help_personal_development"
+          },
+          {
+            "name": "Productivity",
+            "tag_id": "urn:tag:genre:productivity",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:productivity"
+          },
+          {
+            "name": "Audiobook",
+            "tag_id": "urn:tag:genre:audiobook",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:audiobook"
+          },
+          {
+            "name": "Nonfiction",
+            "tag_id": "urn:tag:genre:nonfiction",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:nonfiction"
+          },
+          {
+            "name": "Inspirational",
+            "tag_id": "urn:tag:genre:inspirational",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:inspirational"
+          },
+          {
+            "name": "Business",
+            "tag_id": "urn:tag:genre:business",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:business"
+          },
+          {
+            "name": "Psychology",
+            "tag_id": "urn:tag:genre:psychology",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:psychology"
+          },
+          {
+            "name": "Non_fiction",
+            "tag_id": "urn:tag:genre:non_fiction",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:non_fiction"
+          },
+          {
+            "name": "Health",
+            "tag_id": "urn:tag:genre:health",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:health"
+          },
+          {
+            "name": "Leadership",
+            "tag_id": "urn:tag:genre:leadership",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:leadership"
           }
         ]
+      },
+      {
+        "entity_id": "9F18D223-E543-461A-A56D-898A28BBDDEB",
+        "name": "If I Slow Down Everything Will Disappear",
+        "population_percentile": 0.7282152042902075,
+        "types": [
+          "urn:entity:album"
+        ],
+        "disambiguation": "If I Slow Down Everything Will Disappear",
+        "properties": {
+          "duration": {
+            "album": 1286
+          },
+          "image": {
+            "url": "https://lastfm.freetls.fastly.net/i/u/500x500/6671bad7ad229c51b1803d73b3af1713.jpg"
+          },
+          "release_date": "2006-02-03",
+          "track_count": 3
+        }
       }
     ]
   },
-  "duration": 0.03360879048705101,
+  "duration": 0.07418912276625633,
   "results": {
     "tags": [
       {
-        "tag_id": "urn:tag:genre:turn_based",
-        "name": "Turn-Based",
-        "type": "urn:entity:videogame",
+        "tag_id": "urn:tag:genre:business",
+        "name": "Business",
+        "type": "urn:entity:book",
         "subtype": "urn:property:genre",
         "query": {
-          "_tfidf": 0.9883721,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.8471761,
-          "_percent_of_score": 0.8471761,
-          "_score_rank": 1,
-          "_score_percentile": 0.875,
-          "affinity": 0.8471761,
-          "rank": 1,
-          "percentile": 0.875
-        },
-        "value": "urn:tag:genre:turn_based"
-      },
-      {
-        "tag_id": "urn:tag:genre:4x",
-        "name": "4x",
-        "type": "urn:entity:videogame",
-        "subtype": "urn:property:genre",
-        "query": {
-          "_tfidf": 0.9883721,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.8471761,
-          "_percent_of_score": 0.8471761,
-          "_score_rank": 1,
-          "_score_percentile": 0.875,
-          "affinity": 0.8471761,
-          "rank": 1,
-          "percentile": 0.875
-        },
-        "value": "urn:tag:genre:4x"
-      },
-      {
-        "tag_id": "urn:property:wikipedia_category:american_action_adventure_television_series",
-        "name": "American Action Adventure Television Series",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:wikipedia_category",
-        "query": {
-          "_tfidf": 0.95238096,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.81632656,
-          "_percent_of_score": 0.81632656,
+          "_tfidf": 0.9953913,
+          "_shared_entity_count": 4,
+          "_percentage_of_entities_tagged": 0.14814815,
+          "_score": 0.91882277,
+          "_percent_of_score": 0.91882277,
           "_score_rank": 1,
           "_score_percentile": 1,
-          "affinity": 0.81632656,
+          "affinity": 0.91882277,
           "rank": 1,
           "percentile": 1
         },
-        "value": "urn:property:wikipedia_category:american_action_adventure_television_series"
+        "value": "urn:tag:genre:business"
       },
       {
-        "tag_id": "urn:tag:genre:strategy",
-        "name": "Strategy",
-        "type": "urn:entity:videogame",
+        "tag_id": "urn:tag:genre:nonfiction",
+        "name": "Nonfiction",
+        "type": "urn:entity:book",
         "subtype": "urn:property:genre",
         "query": {
-          "_tfidf": 0.9476744,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.81229234,
-          "_percent_of_score": 0.81229234,
+          "_tfidf": 0.9707761,
+          "_shared_entity_count": 8,
+          "_percentage_of_entities_tagged": 0.2962963,
+          "_score": 0.91675574,
+          "_percent_of_score": 0.91675574,
           "_score_rank": 2,
-          "_score_percentile": 0.75,
-          "affinity": 0.81229234,
+          "_score_percentile": 0.9807692,
+          "affinity": 0.91675574,
           "rank": 2,
+          "percentile": 0.9807692
+        },
+        "value": "urn:tag:genre:nonfiction"
+      },
+      {
+        "tag_id": "urn:tag:genre:self_help",
+        "name": "Self Help",
+        "type": "urn:entity:book",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.99117947,
+          "_shared_entity_count": 4,
+          "_percentage_of_entities_tagged": 0.14814815,
+          "_score": 0.91493493,
+          "_percent_of_score": 0.91493493,
+          "_score_rank": 3,
+          "_score_percentile": 0.96153843,
+          "affinity": 0.91493493,
+          "rank": 3,
+          "percentile": 0.96153843
+        },
+        "value": "urn:tag:genre:self_help"
+      },
+      {
+        "tag_id": "urn:tag:genre:psychology",
+        "name": "Psychology",
+        "type": "urn:entity:book",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.98507124,
+          "_shared_entity_count": 4,
+          "_percentage_of_entities_tagged": 0.14814815,
+          "_score": 0.9092965,
+          "_percent_of_score": 0.9092965,
+          "_score_rank": 4,
+          "_score_percentile": 0.9423077,
+          "affinity": 0.9092965,
+          "rank": 4,
+          "percentile": 0.9423077
+        },
+        "value": "urn:tag:genre:psychology"
+      },
+      {
+        "tag_id": "urn:tag:genre:leadership",
+        "name": "Leadership",
+        "type": "urn:entity:book",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.9924644,
+          "_shared_entity_count": 3,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.9053473,
+          "_percent_of_score": 0.9053473,
+          "_score_rank": 5,
+          "_score_percentile": 0.9230769,
+          "affinity": 0.9053473,
+          "rank": 5,
+          "percentile": 0.9230769
+        },
+        "value": "urn:tag:genre:leadership"
+      },
+      {
+        "tag_id": "urn:tag:genre:self_help:personal_development",
+        "name": "Personal Development",
+        "type": "urn:entity:book",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.99156547,
+          "_shared_entity_count": 3,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.90452725,
+          "_percent_of_score": 0.90452725,
+          "_score_rank": 6,
+          "_score_percentile": 0.90384614,
+          "affinity": 0.90452725,
+          "rank": 6,
+          "percentile": 0.90384614
+        },
+        "value": "urn:tag:genre:self_help:personal_development"
+      },
+      {
+        "tag_id": "urn:tag:genre:non_fiction",
+        "name": "Non Fiction",
+        "type": "urn:entity:book",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.9869074,
+          "_shared_entity_count": 3,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.9002781,
+          "_percent_of_score": 0.9002781,
+          "_score_rank": 7,
+          "_score_percentile": 0.88461536,
+          "affinity": 0.9002781,
+          "rank": 7,
+          "percentile": 0.88461536
+        },
+        "value": "urn:tag:genre:non_fiction"
+      },
+      {
+        "tag_id": "urn:tag:genre:philosophy",
+        "name": "Philosophy",
+        "type": "urn:entity:book",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.96448517,
+          "_shared_entity_count": 4,
+          "_percentage_of_entities_tagged": 0.14814815,
+          "_score": 0.89029396,
+          "_percent_of_score": 0.89029396,
+          "_score_rank": 8,
+          "_score_percentile": 0.86538464,
+          "affinity": 0.89029396,
+          "rank": 8,
+          "percentile": 0.86538464
+        },
+        "value": "urn:tag:genre:philosophy"
+      },
+      {
+        "tag_id": "urn:tag:genre:health",
+        "name": "Health",
+        "type": "urn:entity:book",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.99387586,
+          "_shared_entity_count": 2,
+          "_percentage_of_entities_tagged": 0.074074075,
+          "_score": 0.889095,
+          "_percent_of_score": 0.889095,
+          "_score_rank": 9,
+          "_score_percentile": 0.84615386,
+          "affinity": 0.889095,
+          "rank": 9,
+          "percentile": 0.84615386
+        },
+        "value": "urn:tag:genre:health"
+      },
+      {
+        "tag_id": "urn:tag:genre:science",
+        "name": "Science",
+        "type": "urn:entity:book",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.98890257,
+          "_shared_entity_count": 2,
+          "_percentage_of_entities_tagged": 0.074074075,
+          "_score": 0.88464606,
+          "_percent_of_score": 0.88464606,
+          "_score_rank": 10,
+          "_score_percentile": 0.8269231,
+          "affinity": 0.88464606,
+          "rank": 10,
+          "percentile": 0.8269231
+        },
+        "value": "urn:tag:genre:science"
+      },
+      {
+        "tag_id": "urn:tag:genre:business:management",
+        "name": "Management",
+        "type": "urn:entity:book",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.9868082,
+          "_shared_entity_count": 2,
+          "_percentage_of_entities_tagged": 0.074074075,
+          "_score": 0.88277245,
+          "_percent_of_score": 0.88277245,
+          "_score_rank": 11,
+          "_score_percentile": 0.8076923,
+          "affinity": 0.88277245,
+          "rank": 11,
+          "percentile": 0.8076923
+        },
+        "value": "urn:tag:genre:business:management"
+      },
+      {
+        "tag_id": "urn:tag:genre:inspirational",
+        "name": "Inspirational",
+        "type": "urn:entity:book",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.96663535,
+          "_shared_entity_count": 2,
+          "_percentage_of_entities_tagged": 0.074074075,
+          "_score": 0.86472636,
+          "_percent_of_score": 0.86472636,
+          "_score_rank": 12,
+          "_score_percentile": 0.78846157,
+          "affinity": 0.86472636,
+          "rank": 12,
+          "percentile": 0.78846157
+        },
+        "value": "urn:tag:genre:inspirational"
+      },
+      {
+        "tag_id": "urn:property:wikipedia_category:business_books",
+        "name": "Business Books",
+        "type": "urn:entity:book",
+        "subtype": "urn:property:wikipedia_category",
+        "query": {
+          "_tfidf": 1,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.037037037,
+          "_score": 0.85714287,
+          "_percent_of_score": 0.85714287,
+          "_score_rank": 1,
+          "_score_percentile": 0,
+          "affinity": 0.85714287,
+          "rank": 1,
+          "percentile": 0
+        },
+        "value": "urn:property:wikipedia_category:business_books"
+      },
+      {
+        "tag_id": "urn:tag:genre:parenting",
+        "name": "Parenting",
+        "type": "urn:entity:book",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 1,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.037037037,
+          "_score": 0.85714287,
+          "_percent_of_score": 0.85714287,
+          "_score_rank": 13,
+          "_score_percentile": 0.7692308,
+          "affinity": 0.85714287,
+          "rank": 13,
+          "percentile": 0.7692308
+        },
+        "value": "urn:tag:genre:parenting"
+      },
+      {
+        "tag_id": "urn:tag:genre:music",
+        "name": "Music",
+        "type": "urn:entity:book",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.99938875,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.037037037,
+          "_score": 0.85661894,
+          "_percent_of_score": 0.85661894,
+          "_score_rank": 14,
+          "_score_percentile": 0.75,
+          "affinity": 0.85661894,
+          "rank": 14,
           "percentile": 0.75
         },
-        "value": "urn:tag:genre:strategy"
+        "value": "urn:tag:genre:music"
       },
       {
-        "tag_id": "urn:property:keyword:web_series",
-        "name": "Web Series",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:keyword",
+        "tag_id": "urn:tag:genre:economics",
+        "name": "Economics",
+        "type": "urn:entity:book",
+        "subtype": "urn:property:genre",
         "query": {
-          "_tfidf": 0.9424084,
+          "_tfidf": 0.99869794,
           "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.8077786,
-          "_percent_of_score": 0.8077786,
+          "_percentage_of_entities_tagged": 0.037037037,
+          "_score": 0.8560268,
+          "_percent_of_score": 0.8560268,
+          "_score_rank": 15,
+          "_score_percentile": 0.7307692,
+          "affinity": 0.8560268,
+          "rank": 15,
+          "percentile": 0.7307692
+        },
+        "value": "urn:tag:genre:economics"
+      },
+      {
+        "tag_id": "urn:tag:genre:pop_rock",
+        "name": "Pop Rock",
+        "type": "urn:entity:artist",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.9985792,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.037037037,
+          "_score": 0.855925,
+          "_percent_of_score": 0.855925,
           "_score_rank": 1,
-          "_score_percentile": 1,
-          "affinity": 0.8077786,
-          "rank": 1,
-          "percentile": 1
-        },
-        "value": "urn:property:keyword:web_series"
-      },
-      {
-        "tag_id": "urn:property:wikipedia_category:dark_fantasy_television_series",
-        "name": "Dark Fantasy Television Series",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:wikipedia_category",
-        "query": {
-          "_tfidf": 0.9407295,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.80633956,
-          "_percent_of_score": 0.80633956,
-          "_score_rank": 2,
-          "_score_percentile": 0.9375,
-          "affinity": 0.80633956,
-          "rank": 2,
-          "percentile": 0.9375
-        },
-        "value": "urn:property:wikipedia_category:dark_fantasy_television_series"
-      },
-      {
-        "tag_id": "urn:property:wikipedia_category:television_shows_filmed_in_spain",
-        "name": "Television Shows Filmed In Spain",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:wikipedia_category",
-        "query": {
-          "_tfidf": 0.9358325,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.80214214,
-          "_percent_of_score": 0.80214214,
-          "_score_rank": 3,
-          "_score_percentile": 0.875,
-          "affinity": 0.80214214,
-          "rank": 3,
-          "percentile": 0.875
-        },
-        "value": "urn:property:wikipedia_category:television_shows_filmed_in_spain"
-      },
-      {
-        "tag_id": "urn:property:wikipedia_category:television_about_magic",
-        "name": "Television About Magic",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:wikipedia_category",
-        "query": {
-          "_tfidf": 0.93566364,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.8019974,
-          "_percent_of_score": 0.8019974,
-          "_score_rank": 4,
-          "_score_percentile": 0.8125,
-          "affinity": 0.8019974,
-          "rank": 4,
-          "percentile": 0.8125
-        },
-        "value": "urn:property:wikipedia_category:television_about_magic"
-      },
-      {
-        "tag_id": "urn:property:keyword:magic",
-        "name": "Magic",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:keyword",
-        "query": {
-          "_tfidf": 0.934555,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.80104715,
-          "_percent_of_score": 0.80104715,
-          "_score_rank": 2,
           "_score_percentile": 0.93333334,
-          "affinity": 0.80104715,
-          "rank": 2,
+          "affinity": 0.855925,
+          "rank": 1,
           "percentile": 0.93333334
         },
-        "value": "urn:property:keyword:magic"
+        "value": "urn:tag:genre:pop_rock"
       },
       {
-        "tag_id": "urn:property:wikipedia_category:television_shows_filmed_in_the_united_kingdom",
-        "name": "Television Shows Filmed In The United Kingdom",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:wikipedia_category",
+        "tag_id": "urn:tag:genre:pop_punk",
+        "name": "Pop Punk",
+        "type": "urn:entity:artist",
+        "subtype": "urn:property:genre",
         "query": {
-          "_tfidf": 0.92350554,
+          "_tfidf": 0.9985792,
           "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.7915762,
-          "_percent_of_score": 0.7915762,
-          "_score_rank": 5,
-          "_score_percentile": 0.75,
-          "affinity": 0.7915762,
-          "rank": 5,
-          "percentile": 0.75
+          "_percentage_of_entities_tagged": 0.037037037,
+          "_score": 0.855925,
+          "_percent_of_score": 0.855925,
+          "_score_rank": 1,
+          "_score_percentile": 0.93333334,
+          "affinity": 0.855925,
+          "rank": 1,
+          "percentile": 0.93333334
         },
-        "value": "urn:property:wikipedia_category:television_shows_filmed_in_the_united_kingdom"
+        "value": "urn:tag:genre:pop_punk"
       },
       {
-        "tag_id": "urn:property:keyword:netflix_original",
-        "name": "Netflix Original",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:keyword",
+        "tag_id": "urn:tag:genre:j_pop",
+        "name": "J-Pop",
+        "type": "urn:entity:artist",
+        "subtype": "urn:property:genre",
         "query": {
-          "_tfidf": 0.91884816,
+          "_tfidf": 0.9981856,
           "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.7875841,
-          "_percent_of_score": 0.7875841,
-          "_score_rank": 3,
+          "_percentage_of_entities_tagged": 0.037037037,
+          "_score": 0.85558766,
+          "_percent_of_score": 0.85558766,
+          "_score_rank": 2,
           "_score_percentile": 0.8666667,
-          "affinity": 0.7875841,
-          "rank": 3,
+          "affinity": 0.85558766,
+          "rank": 2,
           "percentile": 0.8666667
         },
-        "value": "urn:property:keyword:netflix_original"
+        "value": "urn:tag:genre:j_pop"
       },
       {
-        "tag_id": "urn:property:wikipedia_category:high_fantasy_television_series",
-        "name": "High Fantasy Television Series",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:wikipedia_category",
-        "query": {
-          "_tfidf": 0.9140493,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.78347087,
-          "_percent_of_score": 0.78347087,
-          "_score_rank": 6,
-          "_score_percentile": 0.6875,
-          "affinity": 0.78347087,
-          "rank": 6,
-          "percentile": 0.6875
-        },
-        "value": "urn:property:wikipedia_category:high_fantasy_television_series"
-      },
-      {
-        "tag_id": "urn:property:keyword:based_on_novel",
-        "name": "Based On Novel",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:keyword",
-        "query": {
-          "_tfidf": 0.91099477,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.7808527,
-          "_percent_of_score": 0.7808527,
-          "_score_rank": 4,
-          "_score_percentile": 0.8,
-          "affinity": 0.7808527,
-          "rank": 4,
-          "percentile": 0.8
-        },
-        "value": "urn:property:keyword:based_on_novel"
-      },
-      {
-        "tag_id": "urn:property:wikipedia_category:american_fantasy_drama_television_series",
-        "name": "American Fantasy Drama Television Series",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:wikipedia_category",
-        "query": {
-          "_tfidf": 0.9047619,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.7755102,
-          "_percent_of_score": 0.7755102,
-          "_score_rank": 7,
-          "_score_percentile": 0.625,
-          "affinity": 0.7755102,
-          "rank": 7,
-          "percentile": 0.625
-        },
-        "value": "urn:property:wikipedia_category:american_fantasy_drama_television_series"
-      },
-      {
-        "tag_id": "urn:tag:genre:fantasy",
-        "name": "Fantasy",
-        "type": "urn:entity:tv_show",
+        "tag_id": "urn:tag:genre:literature",
+        "name": "Literature",
+        "type": "urn:entity:book",
         "subtype": "urn:property:genre",
         "query": {
-          "_tfidf": 0.8888889,
+          "_tfidf": 0.99717194,
           "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.7619048,
-          "_percent_of_score": 0.7619048,
-          "_score_rank": 1,
-          "_score_percentile": 1,
-          "affinity": 0.7619048,
-          "rank": 1,
-          "percentile": 1
+          "_percentage_of_entities_tagged": 0.037037037,
+          "_score": 0.8547188,
+          "_percent_of_score": 0.8547188,
+          "_score_rank": 16,
+          "_score_percentile": 0.6923077,
+          "affinity": 0.8547188,
+          "rank": 16,
+          "percentile": 0.6923077
         },
-        "value": "urn:tag:genre:fantasy"
-      },
-      {
-        "tag_id": "urn:property:keyword:psychotronic_series",
-        "name": "Psychotronic Series",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:keyword",
-        "query": {
-          "_tfidf": 0.87958115,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.7539267,
-          "_percent_of_score": 0.7539267,
-          "_score_rank": 5,
-          "_score_percentile": 0.73333335,
-          "affinity": 0.7539267,
-          "rank": 5,
-          "percentile": 0.73333335
-        },
-        "value": "urn:property:keyword:psychotronic_series"
-      },
-      {
-        "tag_id": "urn:property:wikipedia_category:serial_drama_television_series",
-        "name": "Serial Drama Television Series",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:wikipedia_category",
-        "query": {
-          "_tfidf": 0.872847,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.7481546,
-          "_percent_of_score": 0.7481546,
-          "_score_rank": 8,
-          "_score_percentile": 0.5625,
-          "affinity": 0.7481546,
-          "rank": 8,
-          "percentile": 0.5625
-        },
-        "value": "urn:property:wikipedia_category:serial_drama_television_series"
-      },
-      {
-        "tag_id": "urn:property:wikipedia_category:witchcraft_in_television",
-        "name": "Witchcraft In Television",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:wikipedia_category",
-        "query": {
-          "_tfidf": 0.8711584,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.7467072,
-          "_percent_of_score": 0.7467072,
-          "_score_rank": 9,
-          "_score_percentile": 0.5,
-          "affinity": 0.7467072,
-          "rank": 9,
-          "percentile": 0.5
-        },
-        "value": "urn:property:wikipedia_category:witchcraft_in_television"
-      },
-      {
-        "tag_id": "urn:tag:genre:adventure",
-        "name": "Adventure",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:genre",
-        "query": {
-          "_tfidf": 0.8703704,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.74603176,
-          "_percent_of_score": 0.74603176,
-          "_score_rank": 2,
-          "_score_percentile": 0.8,
-          "affinity": 0.74603176,
-          "rank": 2,
-          "percentile": 0.8
-        },
-        "value": "urn:tag:genre:adventure"
-      },
-      {
-        "tag_id": "urn:property:wikipedia_category:television_shows_filmed_in_hungary",
-        "name": "Television Shows Filmed In Hungary",
-        "type": "urn:entity:tv_show",
-        "subtype": "urn:property:wikipedia_category",
-        "query": {
-          "_tfidf": 0.8659237,
-          "_shared_entity_count": 1,
-          "_percentage_of_entities_tagged": 0.11111111,
-          "_score": 0.74222034,
-          "_percent_of_score": 0.74222034,
-          "_score_rank": 10,
-          "_score_percentile": 0.4375,
-          "affinity": 0.74222034,
-          "rank": 10,
-          "percentile": 0.4375
-        },
-        "value": "urn:property:wikipedia_category:television_shows_filmed_in_hungary"
+        "value": "urn:tag:genre:literature"
       }
     ]
   }

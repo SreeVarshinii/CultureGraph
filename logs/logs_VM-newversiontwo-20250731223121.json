@@ -1,0 +1,2 @@
+filename,score,summary,nlp_score,gemini_score,Gemini_reasoning,summary,mean
+VM-newversionone-20250731222800.json,0.723,Nonfiction; Audiobook; Business; Comedy; History,1.0,1.0,"Person A and Person B exhibit near-identical answers across all categories. This suggests a high degree of alignment in their values, goals, decision-making processes, and preferred working styles, indicating excellent co-founder compatibility.",Nonfiction; Audiobook; Business; Comedy; History,0.9076666666666666
