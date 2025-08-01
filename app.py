@@ -106,8 +106,8 @@ if st.button("Submit"):
         st.write("**Name:**", matched_profile.get("first_name", "N/A"))
         st.write("**Email:**", matched_profile.get("email", "N/A"))
         st.write("**Role:**", matched_profile.get("post", "N/A"))
-        st.write("**Taste Compatibility Score:**", round(match["score"], 3))
-        st.write("**NLP-Gemini Combined Mean:**", round(match["mean"], 3))
+        st.write("**Taste Compatibility :**", round(match["score"], 3)*100,"% Match ")
+        st.write("**NLP-Gemini Combined Result gives:**", round(match["mean"], 3)*100,"% Match ")
         st.write("**Gemini Summary:**", match["Gemini_reasoning"])
     except Exception as e:
         st.error(f"⚠ Could not load matched profile JSON: {e}")
