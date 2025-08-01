@@ -1,0 +1,606 @@
+{
+  "success": true,
+  "query": {
+    "entities": [
+      {
+        "entity_id": "CDBDE254-71F0-4640-8D04-5373BEAE5278",
+        "name": "Minecraft",
+        "population_percentile": 0.9847513072147953,
+        "types": [
+          "urn:entity:videogame"
+        ],
+        "disambiguation": "2011-11-18, Mojang AB",
+        "properties": {
+          "console": [
+            "PC",
+            "Switch"
+          ],
+          "content_rating": "E10+",
+          "developer": "Mojang AB",
+          "external": {
+            "igdb": {
+              "id": "minecraft"
+            },
+            "instagram": {
+              "id": "minecraft"
+            },
+            "metacritic": {
+              "critic_rating": 93,
+              "id": "minecraft",
+              "user_rating": 8
+            },
+            "twitch": {
+              "id": "minecraft: java edition"
+            },
+            "twitter": {
+              "id": "minecraft"
+            },
+            "wikidata": {
+              "id": "q105729297"
+            }
+          },
+          "image": {
+            "url": "https://static.metacritic.com/images/products/games/2/0ec49754f864a372073dcc684094385d-98.jpg"
+          },
+          "publisher": "Mojang AB",
+          "release_date": "2011-11-18",
+          "short_description": "2011 sandbox game developed by Mojang",
+          "website": "http://www.minecraft.net/"
+        },
+        "tags": [
+          {
+            "name": "3d",
+            "tag_id": "urn:tag:genre:3d",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:3d"
+          },
+          {
+            "name": "Action Adventure",
+            "tag_id": "urn:tag:genre:action_adventure",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:action_adventure"
+          },
+          {
+            "name": "Adventure",
+            "tag_id": "urn:tag:genre:adventure",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:adventure"
+          },
+          {
+            "name": "Fantasy",
+            "tag_id": "urn:tag:genre:fantasy",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:fantasy"
+          },
+          {
+            "name": "Sandbox",
+            "tag_id": "urn:tag:genre:sandbox",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:sandbox"
+          },
+          {
+            "name": "First-person",
+            "tag_id": "urn:tag:genre:first_person",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:first_person"
+          }
+        ]
+      },
+      {
+        "entity_id": "1A138008-5316-4236-8310-93FE22F6CD58",
+        "name": "The Witcher",
+        "population_percentile": 0.9982359426681368,
+        "types": [
+          "urn:entity:tv_show"
+        ],
+        "disambiguation": "2019",
+        "properties": {
+          "external": {
+            "facebook": {
+              "id": "witchernetflix"
+            },
+            "imdb": {
+              "id": "tt5180504",
+              "user_rating": 8,
+              "user_rating_count": 568873
+            },
+            "instagram": {
+              "id": "witchernetflix"
+            },
+            "twitter": {
+              "id": "witchernetflix"
+            },
+            "wikidata": {
+              "id": "q47500433"
+            }
+          },
+          "image": {
+            "url": "https://m.media-amazon.com/images/M/MV5BMDEwOWVlY2EtMWI0ZC00OWVmLWJmZGItYTk3YjYzN2Y0YmFkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+          },
+          "release_year": 2019,
+          "content_rating": "TV-MA"
+        },
+        "tags": [
+          {
+            "name": "Mystery",
+            "tag_id": "urn:tag:genre:mystery",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:mystery"
+          },
+          {
+            "name": "Drama",
+            "tag_id": "urn:tag:genre:drama",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:drama"
+          },
+          {
+            "name": "Fantasy",
+            "tag_id": "urn:tag:genre:fantasy",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:fantasy"
+          },
+          {
+            "name": "Action",
+            "tag_id": "urn:tag:genre:action",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:action"
+          },
+          {
+            "name": "Adventure",
+            "tag_id": "urn:tag:genre:adventure",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:adventure"
+          }
+        ]
+      },
+      {
+        "entity_id": "0D2F4F91-7B41-4261-AEE1-58EDE1C95559",
+        "name": "Sid Meier's Civilization VI",
+        "population_percentile": 0.8136929139942818,
+        "types": [
+          "urn:entity:videogame"
+        ],
+        "disambiguation": "2018-11-16, Firaxis Games, Aspyr",
+        "properties": {
+          "console": [
+            "PC",
+            "Switch",
+            "iOS",
+            "Xbox One",
+            "PlayStation 4"
+          ],
+          "content_rating": "E10+",
+          "developer": "Firaxis Games, Aspyr",
+          "external": {
+            "igdb": {
+              "id": "sid-meiers-civilization-vi"
+            },
+            "metacritic": {
+              "critic_rating": 86,
+              "id": "sid-meiers-civilization-vi",
+              "user_rating": 7
+            },
+            "steam": {
+              "id": "289070"
+            },
+            "wikidata": {
+              "id": "q24050047"
+            }
+          },
+          "image": {
+            "url": "https://static.metacritic.com/images/products/games/8/249f44ad4193e189901151d6a72f1cd3-98.jpg"
+          },
+          "publisher": "2K Games",
+          "release_date": "2018-11-16",
+          "short_description": "2016 turn-based strategy video game",
+          "website": "http://www.civilization.com/"
+        },
+        "tags": [
+          {
+            "name": "4x",
+            "tag_id": "urn:tag:genre:4x",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:4x"
+          },
+          {
+            "name": "Strategy",
+            "tag_id": "urn:tag:genre:strategy",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:strategy"
+          },
+          {
+            "name": "Turn-based",
+            "tag_id": "urn:tag:genre:turn_based",
+            "type": "urn:tag:genre",
+            "value": "urn:tag:genre:turn_based"
+          }
+        ]
+      }
+    ]
+  },
+  "duration": 0.03360879048705101,
+  "results": {
+    "tags": [
+      {
+        "tag_id": "urn:tag:genre:turn_based",
+        "name": "Turn-Based",
+        "type": "urn:entity:videogame",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.9883721,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.8471761,
+          "_percent_of_score": 0.8471761,
+          "_score_rank": 1,
+          "_score_percentile": 0.875,
+          "affinity": 0.8471761,
+          "rank": 1,
+          "percentile": 0.875
+        },
+        "value": "urn:tag:genre:turn_based"
+      },
+      {
+        "tag_id": "urn:tag:genre:4x",
+        "name": "4x",
+        "type": "urn:entity:videogame",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.9883721,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.8471761,
+          "_percent_of_score": 0.8471761,
+          "_score_rank": 1,
+          "_score_percentile": 0.875,
+          "affinity": 0.8471761,
+          "rank": 1,
+          "percentile": 0.875
+        },
+        "value": "urn:tag:genre:4x"
+      },
+      {
+        "tag_id": "urn:property:wikipedia_category:american_action_adventure_television_series",
+        "name": "American Action Adventure Television Series",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:wikipedia_category",
+        "query": {
+          "_tfidf": 0.95238096,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.81632656,
+          "_percent_of_score": 0.81632656,
+          "_score_rank": 1,
+          "_score_percentile": 1,
+          "affinity": 0.81632656,
+          "rank": 1,
+          "percentile": 1
+        },
+        "value": "urn:property:wikipedia_category:american_action_adventure_television_series"
+      },
+      {
+        "tag_id": "urn:tag:genre:strategy",
+        "name": "Strategy",
+        "type": "urn:entity:videogame",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.9476744,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.81229234,
+          "_percent_of_score": 0.81229234,
+          "_score_rank": 2,
+          "_score_percentile": 0.75,
+          "affinity": 0.81229234,
+          "rank": 2,
+          "percentile": 0.75
+        },
+        "value": "urn:tag:genre:strategy"
+      },
+      {
+        "tag_id": "urn:property:keyword:web_series",
+        "name": "Web Series",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:keyword",
+        "query": {
+          "_tfidf": 0.9424084,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.8077786,
+          "_percent_of_score": 0.8077786,
+          "_score_rank": 1,
+          "_score_percentile": 1,
+          "affinity": 0.8077786,
+          "rank": 1,
+          "percentile": 1
+        },
+        "value": "urn:property:keyword:web_series"
+      },
+      {
+        "tag_id": "urn:property:wikipedia_category:dark_fantasy_television_series",
+        "name": "Dark Fantasy Television Series",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:wikipedia_category",
+        "query": {
+          "_tfidf": 0.9407295,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.80633956,
+          "_percent_of_score": 0.80633956,
+          "_score_rank": 2,
+          "_score_percentile": 0.9375,
+          "affinity": 0.80633956,
+          "rank": 2,
+          "percentile": 0.9375
+        },
+        "value": "urn:property:wikipedia_category:dark_fantasy_television_series"
+      },
+      {
+        "tag_id": "urn:property:wikipedia_category:television_shows_filmed_in_spain",
+        "name": "Television Shows Filmed In Spain",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:wikipedia_category",
+        "query": {
+          "_tfidf": 0.9358325,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.80214214,
+          "_percent_of_score": 0.80214214,
+          "_score_rank": 3,
+          "_score_percentile": 0.875,
+          "affinity": 0.80214214,
+          "rank": 3,
+          "percentile": 0.875
+        },
+        "value": "urn:property:wikipedia_category:television_shows_filmed_in_spain"
+      },
+      {
+        "tag_id": "urn:property:wikipedia_category:television_about_magic",
+        "name": "Television About Magic",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:wikipedia_category",
+        "query": {
+          "_tfidf": 0.93566364,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.8019974,
+          "_percent_of_score": 0.8019974,
+          "_score_rank": 4,
+          "_score_percentile": 0.8125,
+          "affinity": 0.8019974,
+          "rank": 4,
+          "percentile": 0.8125
+        },
+        "value": "urn:property:wikipedia_category:television_about_magic"
+      },
+      {
+        "tag_id": "urn:property:keyword:magic",
+        "name": "Magic",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:keyword",
+        "query": {
+          "_tfidf": 0.934555,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.80104715,
+          "_percent_of_score": 0.80104715,
+          "_score_rank": 2,
+          "_score_percentile": 0.93333334,
+          "affinity": 0.80104715,
+          "rank": 2,
+          "percentile": 0.93333334
+        },
+        "value": "urn:property:keyword:magic"
+      },
+      {
+        "tag_id": "urn:property:wikipedia_category:television_shows_filmed_in_the_united_kingdom",
+        "name": "Television Shows Filmed In The United Kingdom",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:wikipedia_category",
+        "query": {
+          "_tfidf": 0.92350554,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.7915762,
+          "_percent_of_score": 0.7915762,
+          "_score_rank": 5,
+          "_score_percentile": 0.75,
+          "affinity": 0.7915762,
+          "rank": 5,
+          "percentile": 0.75
+        },
+        "value": "urn:property:wikipedia_category:television_shows_filmed_in_the_united_kingdom"
+      },
+      {
+        "tag_id": "urn:property:keyword:netflix_original",
+        "name": "Netflix Original",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:keyword",
+        "query": {
+          "_tfidf": 0.91884816,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.7875841,
+          "_percent_of_score": 0.7875841,
+          "_score_rank": 3,
+          "_score_percentile": 0.8666667,
+          "affinity": 0.7875841,
+          "rank": 3,
+          "percentile": 0.8666667
+        },
+        "value": "urn:property:keyword:netflix_original"
+      },
+      {
+        "tag_id": "urn:property:wikipedia_category:high_fantasy_television_series",
+        "name": "High Fantasy Television Series",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:wikipedia_category",
+        "query": {
+          "_tfidf": 0.9140493,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.78347087,
+          "_percent_of_score": 0.78347087,
+          "_score_rank": 6,
+          "_score_percentile": 0.6875,
+          "affinity": 0.78347087,
+          "rank": 6,
+          "percentile": 0.6875
+        },
+        "value": "urn:property:wikipedia_category:high_fantasy_television_series"
+      },
+      {
+        "tag_id": "urn:property:keyword:based_on_novel",
+        "name": "Based On Novel",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:keyword",
+        "query": {
+          "_tfidf": 0.91099477,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.7808527,
+          "_percent_of_score": 0.7808527,
+          "_score_rank": 4,
+          "_score_percentile": 0.8,
+          "affinity": 0.7808527,
+          "rank": 4,
+          "percentile": 0.8
+        },
+        "value": "urn:property:keyword:based_on_novel"
+      },
+      {
+        "tag_id": "urn:property:wikipedia_category:american_fantasy_drama_television_series",
+        "name": "American Fantasy Drama Television Series",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:wikipedia_category",
+        "query": {
+          "_tfidf": 0.9047619,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.7755102,
+          "_percent_of_score": 0.7755102,
+          "_score_rank": 7,
+          "_score_percentile": 0.625,
+          "affinity": 0.7755102,
+          "rank": 7,
+          "percentile": 0.625
+        },
+        "value": "urn:property:wikipedia_category:american_fantasy_drama_television_series"
+      },
+      {
+        "tag_id": "urn:tag:genre:fantasy",
+        "name": "Fantasy",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.8888889,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.7619048,
+          "_percent_of_score": 0.7619048,
+          "_score_rank": 1,
+          "_score_percentile": 1,
+          "affinity": 0.7619048,
+          "rank": 1,
+          "percentile": 1
+        },
+        "value": "urn:tag:genre:fantasy"
+      },
+      {
+        "tag_id": "urn:property:keyword:psychotronic_series",
+        "name": "Psychotronic Series",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:keyword",
+        "query": {
+          "_tfidf": 0.87958115,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.7539267,
+          "_percent_of_score": 0.7539267,
+          "_score_rank": 5,
+          "_score_percentile": 0.73333335,
+          "affinity": 0.7539267,
+          "rank": 5,
+          "percentile": 0.73333335
+        },
+        "value": "urn:property:keyword:psychotronic_series"
+      },
+      {
+        "tag_id": "urn:property:wikipedia_category:serial_drama_television_series",
+        "name": "Serial Drama Television Series",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:wikipedia_category",
+        "query": {
+          "_tfidf": 0.872847,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.7481546,
+          "_percent_of_score": 0.7481546,
+          "_score_rank": 8,
+          "_score_percentile": 0.5625,
+          "affinity": 0.7481546,
+          "rank": 8,
+          "percentile": 0.5625
+        },
+        "value": "urn:property:wikipedia_category:serial_drama_television_series"
+      },
+      {
+        "tag_id": "urn:property:wikipedia_category:witchcraft_in_television",
+        "name": "Witchcraft In Television",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:wikipedia_category",
+        "query": {
+          "_tfidf": 0.8711584,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.7467072,
+          "_percent_of_score": 0.7467072,
+          "_score_rank": 9,
+          "_score_percentile": 0.5,
+          "affinity": 0.7467072,
+          "rank": 9,
+          "percentile": 0.5
+        },
+        "value": "urn:property:wikipedia_category:witchcraft_in_television"
+      },
+      {
+        "tag_id": "urn:tag:genre:adventure",
+        "name": "Adventure",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:genre",
+        "query": {
+          "_tfidf": 0.8703704,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.74603176,
+          "_percent_of_score": 0.74603176,
+          "_score_rank": 2,
+          "_score_percentile": 0.8,
+          "affinity": 0.74603176,
+          "rank": 2,
+          "percentile": 0.8
+        },
+        "value": "urn:tag:genre:adventure"
+      },
+      {
+        "tag_id": "urn:property:wikipedia_category:television_shows_filmed_in_hungary",
+        "name": "Television Shows Filmed In Hungary",
+        "type": "urn:entity:tv_show",
+        "subtype": "urn:property:wikipedia_category",
+        "query": {
+          "_tfidf": 0.8659237,
+          "_shared_entity_count": 1,
+          "_percentage_of_entities_tagged": 0.11111111,
+          "_score": 0.74222034,
+          "_percent_of_score": 0.74222034,
+          "_score_rank": 10,
+          "_score_percentile": 0.4375,
+          "affinity": 0.74222034,
+          "rank": 10,
+          "percentile": 0.4375
+        },
+        "value": "urn:property:wikipedia_category:television_shows_filmed_in_hungary"
+      }
+    ]
+  }
+}

@@ -1,10 +1,15 @@
 import streamlit as st
-from api_utils import get_entity_id
+import json
+import csv
+import ast
+from datetime import datetime
+from collections import defaultdict
+from api_utils import get_entity_id,update_master_csv
+from analysis import analyze_taste_profile
 from compatiblity import compute_compatibility
-from ui_components import plot_radar_chart
-
+from create_compatiblity_log import batch_compatibility_check
+# --- Streamlit App Setup ---
 st.set_page_config(page_title="Co-Founder Compatibility Checker", layout="wide")
-
 st.title("Co-Founder Compatibility Checker")
 st.write("Discover how culturally compatible two potential co-founders are based on music, film, brands, travel, books, podcasts, and more.")
 
@@ -12,6 +17,15 @@ if st.button("Clear Cache", key="clear"):
     st.cache_data.clear()
     st.success("✅ Cache cleared. Please re-run your compatibility check.")
 
+# --- Personal Information ---
+st.header("Personal Details")
+first_name = st.text_input("First Name", key="first_name")
+last_name = st.text_input("Last Name", key="last_name")
+location = st.text_input("Location", key="location")
+email = st.text_input("Email Address", key="email")
+post = st.text_input("Role", key="post")
+
+# --- Cultural Categories ---
 categories = {
     "🎵 Music Identity": [
         ("Favorite Artists", "music_artists", "text", "Taylor Swift"),
@@ -82,44 +96,63 @@ categories = {
         ("Favorite Game Universe", "game_universe", "text", "The Witcher"),
         ("Game Reflecting Decision Style", "game_decision", "text", "Civilization VI"),
         ("Game Genre That Defines You", "game_genre", "multi", ["RPG", "Shooter", "Strategy", "Simulation", "Adventure"])
-    ]
-}
+    ]}
 
-col1, col2 = st.columns(2)
+# --- Collect Form Inputs ---
+form_data = {}
+for section, questions in categories.items():
+    st.subheader(section)
+    for qtext, key, *extras in questions:
+        widget_key = f"{key}_A"
+        if extras and extras[0] == "multi":
+            form_data[key] = st.multiselect(qtext, extras[1], default=extras[1], key=widget_key)
+        elif extras and extras[0] == "radio":
+            form_data[key] = st.radio(qtext, extras[1], index=0, key=widget_key)
+        elif extras and extras[0] == "text":
+            form_data[key] = st.text_input(qtext, value=extras[1], key=widget_key)
 
-for col, person in zip([col1, col2], ["A", "B"]):
-    with col:
-        st.header(f"Co-Founder {person}")
-        for section, questions in categories.items():
-            st.subheader(section)
-            for qtext, key, *extras in questions:
-                widget_key = f"{key}_{person}"
-                if extras and extras[0] == "multi":
-                    st.multiselect(qtext, extras[1], default=extras[1], key=widget_key)
-                elif extras and extras[0] == "radio":
-                    st.radio(qtext, extras[1], index=0, key=widget_key)
-                elif extras and extras[0] == "text":
-                    st.text_input(qtext, value=extras[1], key=widget_key)
+# --- Submission Logic ---
+if st.button("Submit"):
+    grouped_inputs = defaultdict(list)
+    for key, value in form_data.items():
+        category = key.split("_")[0]
+        grouped_inputs[category].extend(value if isinstance(value, list) else [value])
 
-if st.button("Check Compatibility"):
-    def collect_entities(person):
-        inputs = [v for k, v in st.session_state.items() if k.endswith(f"_{person}") and isinstance(v, str) and v.strip()]
-        lists = [v for k, v in st.session_state.items() if k.endswith(f"_{person}") and isinstance(v, list) and v]
-        all_terms = inputs + [item for sublist in lists for item in sublist]
-        return [get_entity_id(name.strip()) for name in all_terms if get_entity_id(name.strip())]
-
-    entity_ids_a = collect_entities("A")
-    entity_ids_b = collect_entities("B")
-
-    result = compute_compatibility(entity_ids_a, entity_ids_b)
-    print(entity_ids_a, entity_ids_b)
-    st.session_state.compatibility_result = result
+    analysis_results = {}
+    full_entity_ids=[]
+    full_entity_ids_specific=[]
+    for category, terms in grouped_inputs.items():
+        cleaned_terms = [t.strip() for t in terms if t.strip()]
+        entity_ids = [get_entity_id(term) for term in cleaned_terms if get_entity_id(term)]
+        full_entity_ids_specific.extend(entity_ids)
+        if entity_ids:
+            genre_result = analyze_taste_profile(entity_ids)
+            analysis_results[category] = genre_result
+            for genre in genre_result:
+                genre_entity_id = get_entity_id(genre)
+                if genre_entity_id:
+                    full_entity_ids.append(genre_entity_id)
+    st.session_state.analysis_results = analysis_results
     st.session_state.show_result = True
 
-    # Redirect to results page (hack using st.switch_page)
-    st.switch_page("pages/1_Results.py")
-    # st.subheader(f"Overall Compatibility Score: {result['score']*100:.2f} %")
-    # st.write("Top Shared Interests:", ", ".join(result["summary"]) if result["summary"] else "No significant shared interests found.")
+    now = datetime.now().strftime("%Y%m%d%H%M%S")
+    filename = f"VM-{first_name.strip()}-{now}.json"
+    filepath="profile/"+filename
+    full_data = {
+        "first_name": first_name,
+        "email": email,
+        "post": post,
+        "form_data": form_data,
+        "taste_analysis": analysis_results,
+        "UUID": full_entity_ids_specific
+    }
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(full_data, f, ensure_ascii=False, indent=2)
+    output_csv_path="logs/logs_"+filename
+    batch_compatibility_check(full_entity_ids_specific,output_csv_path)
+    update_master_csv(filename, full_entity_ids_specific)
+    # st.session_state.current_profile_path = filename 
 
-    # st.subheader("Category Breakdown")
-    # plot_radar_chart(result["category_scores"])
+
+    # st.success("✅ Profile submitted!")
+    # st.switch_page("pages/1_Results.py")
